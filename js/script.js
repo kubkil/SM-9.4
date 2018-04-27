@@ -14,9 +14,9 @@
 
 function drawTree(rows) {
   let star = '';
-  for (let i = 0; i < rows; i++) {
+  for (let i = 0; i <= rows; i++) {
     for (let j = 0; j < rows - i; j++) {
-      star += '_';
+      star += ' ';
     }
     for (let k = 0; k < (2 * i + 1); k++) {
       star += '*';
@@ -25,3 +25,5 @@ function drawTree(rows) {
   }
   console.log(star);
 }
+
+// let timeout = setTimeout(function(){drawTree(10)}, 5000);

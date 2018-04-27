@@ -25,6 +25,7 @@
   "homepage": "https://github.com/kubkil/SM-9.4#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
+    "hoek": "^5.0.3",
     "node-sass": "^4.7.2",
     "npm-run-all": "^4.1.2"
   }
